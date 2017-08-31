@@ -6,25 +6,25 @@ public class RobotSquare {
     public static void main(String[] args) throws Exception {
  
     	// 1. Make a new Robot
-Robot r = new Robot();
-r.penDown();
-r.setSpeed(10);
-r.move(400);
+Robot Art = new Robot();
+
 
         // 3. Put the robot's pen down
-
+Art.penDown();
 
         // 6. Make the robot move as fast as possible
-
+Art.setSpeed(300);
 
         // 5. Do everything below here 4 times
+for (int i = 0; i <4; i++) {
+	
 
 
         //         2. Move your robot 200 pixels
-
+Art.move(200);
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
-
-
+Art.turn(90);
+}
     }
 }
