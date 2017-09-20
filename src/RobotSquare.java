@@ -4,7 +4,7 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class RobotSquare {
     public static void main(String[] args) throws Exception {
- 
+ Robot Art = new Robot();
     	// 1. Make a new Robot
 
 Art.hide();
